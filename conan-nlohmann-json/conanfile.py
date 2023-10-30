@@ -5,10 +5,10 @@ import xml.etree.ElementTree as ET
 from conans import ConanFile, CMake, tools
 
 class NlohmannJsonConan(ConanFile):
-  name = "nlohmann-json"
+  name = "Conan Package for nlohmann-json"
   version = "v3.11.2"
   license = "MIT License"
-  author = "Nlohmann"
+  author = "Anh Tran"
   url = "https://github.com/nlohmann/json"
   description = "JSON for Modern C++"
   topics = ("open source", "conan package", "json")

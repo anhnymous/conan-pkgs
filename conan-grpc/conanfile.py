@@ -4,10 +4,10 @@ import shutil
 from conans import ConanFile, CMake, tools
 
 class grpcConan(ConanFile):
-  name = "grpc"
+  name = "Conan Package for gRPC"
   version = "v1.50.0"
   license = "<Apache License 2.0>"
-  author = "grpc.io"
+  author = "Anh Tran"
   url = "https://github.com/grpc/grpc"
   description = "gRPC – An RPC library and framework"
   topics = ("open source", "conan package", "grpc")
